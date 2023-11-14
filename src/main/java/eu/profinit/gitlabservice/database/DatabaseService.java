@@ -10,8 +10,8 @@ import eu.profinit.gitlabservice.database.model.GitLabProject;
 import eu.profinit.gitlabservice.database.model.GitLabUser;
 import eu.profinit.gitlabservice.database.repository.GitLabProjectRepository;
 import eu.profinit.gitlabservice.database.repository.GitLabUserRepository;
-import eu.profinit.gitlabservice.gitlab.dto.GitLabProjectDto;
-import eu.profinit.gitlabservice.gitlab.dto.GitLabUserDto;
+import eu.profinit.gitlabservice.service.dto.GitLabProjectDto;
+import eu.profinit.gitlabservice.service.dto.GitLabUserDto;
 import lombok.RequiredArgsConstructor;
 
 @Service

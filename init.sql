@@ -19,7 +19,6 @@ create table if not exists gitlab_service.gitlab_project
     id              bigint       not null primary key,
     description     varchar(255) null,
     name            varchar(255) null,
-    webUrl          varchar(255) null,
     web_url         varchar(255) null,
     git_lab_user_id bigint       null,
     constraint gitlab_project_ibfk_1
